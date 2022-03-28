@@ -26,19 +26,19 @@ Introduction to ![Terraform](https://www.terraform.io/), infrastructure as a cod
 
 Creation of a minimalist architecture to deploy a blog in the Stockholm region. The architecture will be as the following :
 
-<p><img alt="TP1" src="./diagram/TP1.png" width="960"></p>
+<p><img alt="TP1" src="./diagram/TP1.png" height="90" width="auto"></p>
 
 ### Deployment and continuous integration
 
 Deployment of a web architecture to run a WordPress blog, of which the deployment of the new code will be automated. The architecture will be as the following :
 
-<p><img alt="TP2" src="./diagram/TP2.png" width="960"></p>
+<p><img alt="TP2" src="./diagram/TP2.png" height="360" width="auto"></p>
 
 ### 3-tier Web Architecture
 
 Creation of a web architecture to deploy a WordPress blog composed of an EC2 instance to run our web server, an RDS instance for database, an ElastiCache node for temporary storage. The architecture will be as the following :
 
-<p><img alt="TP3" src="./diagram/TP3.png" width="960"></p>
+<p><img alt="TP3" src="./diagram/TP3.png" height="360" width="auto"></p>
 
 ### Resilient and Secure Architecture
 
@@ -66,7 +66,7 @@ The architecture will be composed of the following resources:
 
 The application will be managed and deployed by CodePipeline and CodeDeploy.
 
-<p><img alt="Resilient and Secure Architecture" src="./diagram/TP4.png" width="960"></p>
+<p><img alt="Resilient and Secure Architecture" src="./diagram/TP4.png" height="360" width="auto"></p>
 
 ### Elastic Architecture
 
@@ -79,7 +79,7 @@ In this lab, a highly available, secure and elastic web architecture will be cre
 
 The application will be managed and deployed by CodePipeline and CodeDeploy.
 
-<p><img alt="Elastic Architecture" src="./diagram/TP5.png" width="960"></p>
+<p><img alt="Elastic Architecture" src="./diagram/TP5.png" height="360" width="auto"></p>
 
 ### Containers and microservices architecture
 
@@ -89,7 +89,7 @@ In this tutorial, a micro-services architecture will be created, it will be comp
 - an ECS cluster
 - 2 applications (Frontend and Backend)
 
-<p><img alt="Containers and microservices architecture" src="./diagram/TP6.png" width="960"></p>
+<p><img alt="Containers and microservices architecture" src="./diagram/TP6.png" height="360" width="auto"></p>
 
 ### Event-Driven Architecture
 
@@ -101,7 +101,7 @@ This integration requires :
 - Deploy a Lamba function to format and send our notifications
 - Deploy AWS KMS services to encrypt and secure sensitive information
 
-<p><img alt="Event-Driven Architecture" src="./diagram/TP7.png" width="960"></p>
+<p><img alt="Event-Driven Architecture" src="./diagram/TP7.png" height="360" width="auto"></p>
 
 ### Serverless Architecture
 
@@ -117,8 +117,9 @@ The architecture of our application will be composed of the following resources:
 - A `DynamoDB` database service
 - A `Cognito` authentication service
 
-<p><img alt="Serverless Architecture" src="./diagram/TP8.png" width="960"></p>
+<p><img alt="Serverless Architecture" src="./diagram/TP8.png" height="360" width="auto"></p>
 
 See below, an example of usage :
 
-<p><img alt="Image analysis example" src="./diagram/TP8-example.png" width="960"></p>
+<p><img alt="Image analysis example" src="./diagram/TP8-example.png" height="360" width="auto"></p>
+
